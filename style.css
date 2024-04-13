@@ -22,18 +22,20 @@ a {
 
 .nav-left {
   display: flex;
-  justify-content: space-between;
-  width: 7%;
+  gap: 24px;
   align-items: center;
 }
 
 .nav-right {
   display: flex;
-  justify-content: space-between;
-  width: 16%;
+  gap: 24px;
   align-items: center;
 }
-
+.nav-right > img {
+  width: 50px;
+  height: 50px;
+  border-radius: px;
+}
 .page {
   height: 100vh;
   display: flex;
@@ -42,7 +44,14 @@ a {
   justify-content: space-between;
   /* border: 5px solid green; */
 }
-
+.middle-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
 .google-img {
   width: 18%;
 }
@@ -53,12 +62,13 @@ a {
   border: 1px solid lightgray;
   border-radius: 40px;
   width: 40%;
-  padding: 8px;
+  padding: 8px 16px;
   align-items: center;
 }
 
 #input-field {
   border: none;
+  width: 100%;
 }
 
 .image-icon {
@@ -72,7 +82,6 @@ button {
   font-size: 14px;
   border-radius: 8px;
   border: none;
-  margin: 20px;
   background-color: #f8f9fa;
 }
 
@@ -93,18 +102,9 @@ footer {
   width: 100%;
 }
 
-.footer-links-left {
-  display: flex;
-  justify-content: space-between;
-  width: 20%;
-  align-items: center;
-}
-
-.footer-links-right {
-  display: flex;
-  justify-content: space-between;
-  width: 12%;
-  align-items: center;
+.footer-links-left > a,
+.footer-links-right > a {
+  margin-right: 20px;
 }
 
 .footer-text-leafimage {
