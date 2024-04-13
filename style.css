@@ -51,6 +51,7 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 32px;
+  padding-bottom: 64px;
 }
 .google-img {
   width: 18%;
