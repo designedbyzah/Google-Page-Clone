@@ -40,7 +40,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 5px solid green;
+  /* border: 5px solid green; */
 }
 
 .google-img {
@@ -110,4 +110,5 @@ footer {
 .footer-text-leafimage {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
