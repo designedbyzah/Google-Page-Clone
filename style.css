@@ -107,9 +107,10 @@ footer {
   width: 100%;
 }
 
-.footer-links-left > a,
-.footer-links-right > a {
-  margin-right: 20px;
+.footer-links-left,
+.footer-links-right {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-text-leafimage {
