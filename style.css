@@ -50,7 +50,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 32px;
+  gap: 28px;
   padding-bottom: 64px;
 }
 .google-img {
@@ -91,7 +91,7 @@ button {
 }
 
 footer {
-  height: 108px;
+  height: 80px;
   width: 100%;
   background-color: #f2f2f2;
   padding: 0px 24px;
@@ -117,5 +117,5 @@ footer {
 .footer-text-leafimage {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
 }
